@@ -1,0 +1,1 @@
+<?php for($i=1;$i<51;$i++){$j=$i*5;echo("<p style='background-color:rgb(".$j.",".$j.",".$j.");height:20px;width:20px'>");}?>
