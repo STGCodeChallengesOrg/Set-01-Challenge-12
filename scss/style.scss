@@ -1,0 +1,13 @@
+$base-color: #131313;
+
+.stg-square{
+	float: left;
+	width: 200px;
+	min-height: 200px;
+}
+
+@for $i from 1 through 50 {
+	.stg-square:nth-child(#{$i}){
+		background-color: lighten($base-color, $i);
+	}
+}
