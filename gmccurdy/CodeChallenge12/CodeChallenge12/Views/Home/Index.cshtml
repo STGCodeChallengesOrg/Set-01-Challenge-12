@@ -1,0 +1,16 @@
+﻿@model CodeChallenge12.Models.ShadeModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <div style="display:flex; flex-direction:row; flex-wrap:wrap;">
+        @foreach (var color in Model.Color)
+        {
+            <div style="background-color:#@color; width:9vw; height:9vw; min-width:20px; min-height:20px;"></div>
+        }
+    </div>
+</body>
+</html>
